@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Đăng ký</title>
+</head>
+<body>
+    <header>
+        <h1>MiniShop</h1>
+        <p>Cửa hàng công nghệ dành cho sinh viên</p>
+        <nav>
+            <a href="index.html">Trang chủ</a> |
+            <a href="about.html">Giới thiệu</a> |
+            <a href="product.html">Sản phẩm</a> |
+            <a href="register.html">Đăng ký</a> |
+            <a href="login.html">Đăng nhập</a> |
+            <a href="cart.html">Giỏ hàng</a> |
+            <a href="contact.html">Liên hệ</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Đăng ký thành viên</h2>
+        <form class="form">
+            <p>
+                <label for="name">Họ và tên:</label><br>
+                <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+                <label for="password">Mật khẩu:</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="text" id="phone" name="phone">
+            </p>
+
+            <p>
+                <label for="category">Sản phẩm quan tâm:</label><br>
+                <select id="category" name="category">
+                    <option>Laptop</option>
+                    <option>Chuột</option>
+                    <option>Bàn phím</option>
+                    <option>Tai nghe</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Giới tính:</label><br>
+                <input type="radio" name="gender" value="male"> Nam
+                <input type="radio" name="gender" value="female"> Nữ
+            </p>
+
+            <p>
+                <label for="message">Ghi chú:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+            </p>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p><strong>MiniShop</strong> - Cửa hàng công nghệ dành cho sinh viên</p>
+        <p>Email: minishop@gmail.com | Hotline: 0123 456 789</p>
+    </footer>
+</body>
+</html>
